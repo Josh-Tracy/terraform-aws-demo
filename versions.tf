@@ -9,4 +9,9 @@ terraform {
 
 provider "aws" {
   # Configuration options
+
+  assume_role {
+    role_arn = "arn:aws:iam::849506427193:role/jtracy-test"
+    external_id = "joshtest"
+  }
 }
