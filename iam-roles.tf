@@ -7,6 +7,8 @@ resource "aws_iam_role" "test_dev_role" {
     Version = "2012-10-17"
     Statement = [
       {
+        
+        
         Action = "sts:AssumeRole"
         Effect = "Allow"
         Sid    = ""
@@ -15,7 +17,10 @@ resource "aws_iam_role" "test_dev_role" {
           
         }
       },
+      
     ]
+    
+    
   })
 
   tags = {
