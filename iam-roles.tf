@@ -12,6 +12,7 @@ resource "aws_iam_role" "test_dev_role" {
         Sid    = ""
         Principal = {
           Service = "ec2.amazonaws.com"
+          
         }
       },
     ]
