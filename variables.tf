@@ -6,3 +6,11 @@ variable "buckets" {
     "app2" = "jtracy-app2-bucket"
   }
 }
+
+variable "role_arn" {
+  type = string
+}
+
+variable "external_id" {
+  type = string
+}
